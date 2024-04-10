@@ -1,0 +1,1263 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contaener {
+    padding: 0 100px;
+}
+
+.navbar-1 {
+    background-color: #212934;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.navbar-1 section {
+    margin: 10px;
+}
+
+.icon-mail-phone ul {
+    display: flex;
+}
+
+.icon-mail-phone ul .li2 {
+    margin-left: 25px;
+}
+
+.icon-mail {
+    position: relative;
+    width: 20px;
+    cursor: pointer;
+}
+
+.a-p {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.p {
+    position: relative;
+    left: 5px;
+    top: 2px;
+    color: white;
+
+}
+
+.icon-phone {
+    position: relative;
+    width: 20px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.example-2 {
+    display: flex;
+    align-items: center;
+    padding-right: 40PX;
+
+}
+
+.example-2 .icon-content {
+    margin: 0 10px;
+    position: relative;
+}
+
+.example-2 .icon-content a {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #eee;
+    transition: all 0.3s ease-in-out;
+}
+
+.example-2 .icon-content a:hover {
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+
+.example-2 .icon-content a .svg {
+    position: relative;
+    z-index: 1;
+    width: 15px;
+    height: 35px;
+}
+
+.svgg {
+    position: relative;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+}
+
+.example-2 .icon-content a:hover {
+    color: white;
+}
+
+.example-2 .icon-content a .filled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.example-2 .icon-content a:hover .filled {
+    height: 100%;
+}
+
+.example-2 .icon-content a[data-social="linkedin"] .filled,
+.example-2 .icon-content a[data-social="linkedin"]~.tooltip {
+    background-color: #0274b3;
+}
+
+.example-2 .icon-content a[data-social="github"] .filled,
+.example-2 .icon-content a[data-social="github"]~.tooltip {
+    background-color: #24262a;
+}
+
+.example-2 .icon-content a[data-social="instagram"] .filled,
+.example-2 .icon-content a[data-social="instagram"]~.tooltip {
+    background: linear-gradient(45deg,
+            #405de6,
+            #5b51db,
+            #b33ab4,
+            #c135b4,
+            #e1306c,
+            #fd1f1f);
+}
+
+.example-2 .icon-content a[data-social="Facebook"] .filled,
+.example-2 .icon-content a[data-social="Facebook"]~.tooltip {
+    background-color: blue;
+}
+
+.navbar-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    flex-wrap: wrap;
+    position: relative;
+    box-shadow: 0px 8px 15px -6px rgba(0, 0, 0, 0.4);
+}
+
+.Zay {
+    display: flex;
+    align-items: center;
+    padding-left: 100PX;
+}
+
+.Zay img {
+    display: flex;
+    align-items: center;
+    width: 75px;
+}
+
+.Unordered-list-text {
+    display: flex;
+    align-items: center;
+}
+
+.Unordered-list-text ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Unordered-list-text ul li {
+    margin: 25px;
+    position: relative;
+    left: 25px;
+    margin-right: 75px;
+}
+
+.Unordered-list-text ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.Unordered-list-text ul li a:hover {
+    color: #59ab6e;
+}
+
+.Unordered-list-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    padding-top: 6px;
+}
+
+.Unordered-list-icon ul {
+    display: flex;
+    align-items: center;
+}
+
+.Unordered-list-icon ul li {
+    margin: 15px;
+}
+
+.odavpkmb::after {
+    content: "7";
+    padding: 2px 5px;
+    font-weight: 1000;
+    font-size: 12px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #d3d3d3;
+    border-radius: 40%;
+    width: max-content;
+    left: 25px;
+}
+
+.bgebyztw::after {
+    content: "+99";
+    padding: 2px 5px;
+    font-weight: 1000;
+    font-size: 12px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #d3d3d3;
+    border-radius: 40%;
+    width: max-content;
+    left: 25px;
+}
+
+.hero {
+    background-color: #59ab6e;
+    width: 100%;
+    height: max-content;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.about-us {
+    color: white;
+}
+
+.About-us-h1 {
+    margin-bottom: 5px;
+    font-size: 60px;
+}
+
+.About-us-p {
+    color: #d2d1d1;
+    font-size: 25px;
+}
+
+.photo-about img {
+    width: 400px;
+}
+
+.section-OS {
+    width: 100%;
+}
+
+.OS {
+    display: flex;
+    justify-content: center;
+}
+
+.Our-Services {
+    padding-top: 75px;
+}
+
+.Our-Services p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.OS-p1 {
+    font-family: "Zen Kaku Gothic Antique";
+    font-weight: 1;
+    font-size: 70px;
+    color: #5a5a5a;
+}
+
+.OS-b-p {
+    display: flex;
+    justify-content: center;
+}
+
+.OS-b-p p {
+    color: #575757;
+    width: 75%;
+}
+
+.section-cards {
+    width: 100%;
+}
+
+.abb-cards {
+    padding: 35px 100px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card:hover {
+    background-color: #59ab6e8e;
+    transform: scale(1.02);
+}
+
+.card {
+    width: 250px;
+    height: 200px;
+    background: white;
+    border-radius: 2px;
+    margin-top: 10px;
+    transition: transform 0.3s;
+}
+
+
+
+.shadow {
+    box-shadow: 0 3px 4px 2px #bebebe
+}
+
+.card-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.card-all lord-icon {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.card-all p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Our-brands-all {
+    background-color: #e9eef5;
+    width: 100%;
+}
+
+.OB {
+    display: flex;
+    justify-content: center;
+}
+
+.all-div {
+    padding: 75px 0;
+}
+
+.Our-brands p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.OB-p1 {
+    font-family: "Zen Kaku Gothic Antique";
+    font-weight: 4;
+    font-size: 70px;
+    color: #5a5a5a;
+}
+
+.Brands {
+    padding: 75px 0;
+}
+
+.Brands ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img {
+    width: 80px;
+    cursor: pointer;
+}
+
+.img0 {
+    width: 25px;
+    cursor: pointer;
+}
+
+.Brands ul li img {
+    filter: grayscale(10);
+}
+
+.footer-all {
+    width: 100%;
+}
+
+.section-footer {
+    background-color: #212934;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 100px;
+}
+
+.col-all hr {
+    width: 300px;
+    background-color: #454545;
+    padding: 0.4px;
+    color: #45484d;
+}
+
+.col-all p {
+    font-size: 40px;
+    padding: 10px;
+    color: #bebebe;
+    position: relative;
+    right: 10px;
+}
+
+.col-all {
+    padding: 0 15px;
+}
+
+#coll-1-p {
+    color: #59ab6e;
+}
+
+.col-all div {
+    padding-top: 15px;
+}
+
+.footer .col-all div ul li {
+    padding: 5px 0;
+    color: #bebebe;
+}
+
+.li-a {
+    position: relative;
+    font-size: 22px;
+}
+
+.col-all div ul li a {
+    color: #bebebe;
+    text-decoration: none;
+    position: relative;
+    bottom: 7px;
+    left: 2px;
+}
+
+.col-all div ul li a:hover {
+    color: #59ab6e;
+}
+
+.footer .col-all div ul li img {
+    width: 25px;
+}
+
+#hr-aunder {
+    width: 100%;
+}
+
+.hr-aunder {
+    display: flex;
+    justify-content: center;
+}
+
+.section-footer-2 {
+    background-color: #212934;
+    padding: 40px 100px;
+}
+
+.footer-item {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+.example-2-2 {
+    display: flex;
+    align-items: center;
+}
+
+.icon-content {
+    margin: 0 10px;
+    position: relative;
+}
+
+.example-2-2 .icon-content a {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #eee;
+    transition: all 0.3s ease-in-out;
+}
+
+.example-2-2 .icon-content a:hover {
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+
+.example-2-2 .icon-content a .svg {
+    position: relative;
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+}
+
+.svgg-2 {
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+}
+
+.example-2-2 .icon-content a:hover {
+    color: white;
+}
+
+.example-2-2 .icon-content a .filled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.example-2-2 .icon-content a:hover .filled {
+    height: 100%;
+}
+
+.example-2-2 .icon-content a[data-social="linkedin"] .filled,
+.example-2-2 .icon-content a[data-social="linkedin"]~.tooltip {
+    background-color: #0274b3;
+}
+
+.example-2-2 .icon-content a[data-social="github"] .filled,
+.example-2-2 .icon-content a[data-social="github"]~.tooltip {
+    background-color: #24262a;
+}
+
+.example-2-2 .icon-content a[data-social="instagram"] .filled,
+.example-2-2 .icon-content a[data-social="instagram"]~.tooltip {
+    background: linear-gradient(45deg,
+            #405de6,
+            #5b51db,
+            #b33ab4,
+            #c135b4,
+            #e1306c,
+            #fd1f1f);
+}
+
+.example-2-2 .icon-content a[data-social="Facebook"] .filled,
+.example-2-2 .icon-content a[data-social="Facebook"]~.tooltip {
+    background-color: blue;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    min-height: 50px;
+    width: 100%;
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #59ab6e;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+}
+
+.button--submit {
+    min-height: 50px;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #59ab6e;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.button--submit:hover {
+    background-color: #83ac8d;
+}
+
+.input:focus,
+.input:focus-visible {
+    border-color: #88ff00;
+    outline: none;
+}
+
+/* media*/
+
+@media (min-width:320px) and (max-width:576px) {
+    .navbar-1 {
+        display: none;
+    }
+
+    .Unordered-list-text {
+        display: none;
+    }
+
+    .Unordered-list-icon {
+        display: none;
+    }
+
+    .Zay {
+        padding: 0 0 0 25px;
+    }
+
+    .Zay img {
+        width: 150px;
+
+    }
+
+    .icon-1 {
+        padding: 25px 25px 0 0;
+    }
+
+    .icon-1 lord-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .about {
+        padding: 30px 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about h1 {
+        font-size: 45px;
+    }
+
+    .About-us-p {
+        font-size: 20px;
+    }
+
+    .about img {
+        width: 320px;
+    }
+
+    .OS {
+        padding: 0 15px;
+    }
+
+    .OS-p1 {
+        font-size: 65px;
+    }
+
+    .OS-b-p p {
+        font-size: 20px;
+    }
+
+    .abb-cards {
+        padding: 35px 15px;
+    }
+
+    .card-all {
+        margin: 25px 0;
+    }
+
+    .card {
+        width: 325px;
+        height: max-content;
+    }
+
+    .card-all lord-icon {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-all img {
+        width: 150px;
+    }
+
+    .card-all p {
+        font-size: 25px;
+    }
+
+    .OB-p1 {
+        font-size: 65px;
+    }
+
+    .Brands ul {
+        padding: 0 15px;
+    }
+
+    .img {
+        width: 60px;
+    }
+
+    .footer {
+        padding: 35px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-all hr {
+        width: 320px;
+    }
+
+    .hr-aunder {
+        padding: 0 25px;
+    }
+
+    .col-all p {
+        font-size: 60px;
+    }
+
+    .footer .col-all div ul li {
+        font-size: 25px;
+    }
+
+    .col-all p {
+        font-size: 60px;
+    }
+
+    .footer .col-all div ul li {
+        font-size: 25px;
+    }
+
+    .col-all p {
+        font-size: 60px;
+    }
+
+    .footer .col-all div ul li {
+        font-size: 25px;
+    }
+
+    .footer .col-all div ul li img {
+        width: 35px;
+    }
+
+    .section-footer-2 {
+        padding: 40px 15px;
+    }
+
+    .footer-item {
+        justify-content: center;
+    }
+
+    .example-2-2 {
+        padding: 25px 0;
+    }
+
+    .input {
+        width: 180px;
+        min-height: 60px;
+        font-size: 20px;
+    }
+
+    .button--submit {
+        width: 150px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .example-2-2 .icon-content a {
+        width: 50px;
+        height: 50px;
+    }
+
+    .example-2-2 .icon-content a .svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .svgg-2 {
+        width: 35px;
+        height: 35px;
+    }
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .navbar-1 {
+        display: none;
+    }
+
+    .Unordered-list-text {
+        display: none;
+    }
+
+    .Unordered-list-icon {
+        display: none;
+    }
+
+    .Zay {
+        padding: 0 0 0 40px;
+    }
+
+    .Zay img {
+        width: 180px;
+    }
+
+    .icon-1 {
+        padding: 30px 40px 0 0;
+    }
+
+    .icon-1 lord-icon {
+        width: 125px;
+        height: 125px;
+        cursor: pointer;
+    }
+
+    .about {
+        padding: 30px 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about h1 {
+        font-size: 60px;
+    }
+
+    .About-us-p {
+        font-size: 25px;
+    }
+
+    .about img {
+        width: 500px;
+    }
+
+    .OS {
+        padding: 0 40px;
+    }
+
+    .OS-p1 {
+        font-size: 100px;
+    }
+
+    .OS-b-p p {
+        font-size: 30px;
+    }
+
+    .abb-cards {
+        padding: 35px 40px;
+    }
+
+    .card {
+        width: 450px;
+        height: max-content;
+    }
+
+    .card-all lord-icon {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-all {
+        margin: 20px 0;
+    }
+
+    .card-all img {
+        width: 150px;
+    }
+
+    .card-all p {
+        font-size: 30px;
+    }
+
+    .OB {
+        padding: 0 40px;
+    }
+
+    .OB-p1 {
+        font-size: 100px;
+    }
+
+    .Brands ul {
+        padding: 0 40px;
+    }
+
+    .img {
+        width: 80px;
+    }
+
+    .footer {
+        padding: 35px 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-all hr {
+        width: 320px;
+    }
+
+    .hr-aunder {
+        padding: 0 40px;
+    }
+
+    .col-all p {
+        font-size: 60px;
+    }
+
+    .footer .col-all div ul li {
+        font-size: 25px;
+    }
+
+    .section-footer-2 {
+        padding: 40px 100px;
+    }
+
+    .footer-item {
+        justify-content: center;
+    }
+
+    .example-2-2 {
+        padding: 25px 0;
+    }
+
+    .input {
+        min-height: 100px;
+        font-size: 35px;
+    }
+
+    .button--submit {
+        width: 400px;
+        height: 100px;
+        font-size: 25px;
+    }
+
+    .example-2-2 .icon-content a {
+        width: 100px;
+        height: 100px;
+    }
+
+    .example-2-2 .icon-content a .svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .svgg-2 {
+        width: 70px;
+        height: 70px;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    .navbar-1 {
+        display: none;
+    }
+
+    .Unordered-list-text {
+        display: none;
+    }
+
+    .Unordered-list-icon {
+        display: none;
+    }
+
+    .Zay {
+        padding: 0 0 0 65px;
+    }
+
+    .Zay img {
+        width: 200px;
+    }
+
+    .icon-1 {
+        padding: 35px 65px 0 0;
+    }
+
+    .icon-1 lord-icon {
+        width: 125px;
+        height: 125px;
+    }
+
+    .about {
+        padding: 30px 65px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about h1 {
+        font-size: 75px;
+    }
+
+    .About-us-p {
+        font-size: 35px;
+    }
+
+    .about img {
+        width: 750px;
+    }
+
+    .OS {
+        padding: 0 65px;
+    }
+
+    .OS-p1 {
+        font-size: 125px;
+    }
+
+    .OS-b-p p {
+        font-size: 40px;
+    }
+
+    .abb-cards {
+        padding: 35px 65px;
+    }
+
+    .card {
+        width: 600px;
+        height: max-content;
+    }
+
+    .card-all lord-icon {
+        width: 200px;
+        height: 200px;
+    }
+
+    .card-all {
+        margin: 20px 0;
+    }
+
+    .card-all img {
+        width: 200px;
+    }
+
+    .card-all p {
+        font-size: 30px;
+    }
+
+    .OB {
+        padding: 0 65px;
+    }
+
+    .OB-p1 {
+        font-size: 125px;
+    }
+
+    .Brands ul {
+        padding: 0 65px;
+    }
+
+    .img {
+        width: 100px;
+    }
+
+    .footer {
+        padding: 35px 40px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .col-all p {
+        font-size: 60px;
+    }
+
+    .col-all hr {
+        width: 400px;
+    }
+
+    .footer .col-all div ul li {
+        font-size: 35px;
+    }
+
+    .hr-aunder {
+        padding: 0 60px;
+    }
+
+    .footer .col-all div ul li img {
+        width: 35px;
+    }
+
+    .section-footer-2 {
+        padding: 40px 65px;
+    }
+
+    .footer-item {
+        justify-content: center;
+    }
+
+    .example-2-2 {
+        padding: 25px 0;
+    }
+
+    .input {
+        min-height: 100px;
+        font-size: 35px;
+    }
+
+    .button--submit {
+        width: 400px;
+        height: 100px;
+        font-size: 35px;
+    }
+
+    .example-2-2 .icon-content a {
+        width: 100px;
+        height: 100px;
+    }
+
+    .example-2-2 .icon-content a .svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .svgg-2 {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (min-width:957px) and (max-width:991px) {
+    .media {
+        position: relative;
+        right: 215px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+
+    .icon-1 {
+        display: none;
+    }
+
+    .Zay {
+        padding: 0 0 0 35px;
+    }
+
+    .Unordered-list-icon {
+        padding: 0 0 0 35px;
+    }
+
+    .about {
+        padding: 0 35px;
+    }
+
+    .about h1 {
+        font-size: 50px;
+    }
+
+    .about p {
+        font-size: 25px;
+    }
+
+    .about img {
+        width: 400px;
+    }
+
+    .abb-cards {
+        padding: 35px 0;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    .col-all hr {
+        width: 290px;
+    }
+
+    .footer-item {
+        justify-content: center;
+    }
+
+    .example-2-2 {
+        padding-top: 15px;
+    }
+
+    .input {
+        min-height: 80px;
+        font-size: 25px;
+    }
+
+    .button--submit {
+        width: 300px;
+        height: 80px;
+    }
+
+    .example-2-2 .icon-content a {
+        width: 80px;
+        height: 80px;
+    }
+
+    .example-2-2 .icon-content a .svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .svgg-2 {
+        width: 55px;
+        height: 55px;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1016px) {
+    .abb-cards {
+        padding: 35px 150px;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    .col-all hr {
+        width: 290px;
+    }
+
+}
+
+
+@media (min-width:1200px) {
+    .icon-1 {
+        display: none;
+    }
+}
+
+@media (min-width:1300px) {
+
+    .col-all hr {
+        width: 300px;
+    }
+}
+
+/* media*/

@@ -1,0 +1,275 @@
+.OS-b-p p {
+  width: 85% !important;
+  font-size: 18px;
+}
+
+.OS-p1-1 {
+  font-family: "Zen Kaku Gothic Antique";
+  font-weight: 1;
+  font-size: 50px;
+  color: #5a5a5a;
+}
+
+.OS-b-p-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.OS-b-p-1 p {
+  font-size: 20px;
+  color: #575757;
+  width: 75%;
+}
+
+.section-OS {
+  background-color: #e9eef5;
+  z-index: 0;
+}
+
+.Our-Services {
+  padding: 60px 0 !important;
+}
+
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 75px;
+}
+
+.label-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.input-contact {
+  margin: 10px 0;
+  width: 40vw;
+  height: 40px;
+}
+
+.sabject {
+  width: 81vw;
+  height: 40px;
+}
+
+textarea {
+  width: 81vw;
+
+}
+
+.label-sabject-message p {
+  margin: 10px 0;
+}
+
+.button--submit--contact {
+  min-height: 50px;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0 10px;
+  background-color: #59ab6e;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+.button--submit--contact:hover {
+  background-color: #83ac8d;
+}
+
+.button {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+
+@media (min-width:340px) and (max-width:576px) {
+  .OS-p1-1 {
+    font-size: 65px;
+  }
+
+  .OS-b-p-1 p {
+    font-size: 20px;
+  }
+
+  iframe {
+    height: 400px;
+  }
+
+  .input-contact {
+    width: 81vw;
+    height: 150px;
+    font-size: 30px;
+  }
+
+  .label-flex p {
+    font-size: 40px;
+  }
+
+  .sabject {
+    width: 81vw;
+    height: 150px;
+    font-size: 30px;
+  }
+
+  textarea {
+    width: 81vw;
+    height: 300px;
+    font-size: 30px;
+  }
+
+  .label-sabject-message p {
+    font-size: 22px;
+  }
+
+  .button--submit--contact {
+    font-size: 30px;
+  }
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+  .OS-p1-1 {
+    font-size: 100px;
+  }
+
+  .OS-b-p-1 p {
+    font-size: 30px;
+  }
+
+  iframe {
+    height: 500px;
+  }
+
+  .input-contact {
+    width: 81vw;
+    height: 200px;
+    font-size: 40px;
+    padding: 0px 0 150px 0px;
+  }
+
+  .label-flex p {
+    font-size: 45px;
+  }
+
+  .sabject {
+    width: 81vw;
+    height: 200px;
+    font-size: 40px;
+    padding: 0px 0 150px 0px;
+
+  }
+
+  textarea {
+    width: 81vw;
+    font-size: 40px;
+  }
+
+  .label-sabject-message p {
+    font-size: 45px;
+  }
+
+  .button--submit--contact {
+    font-size: 40px;
+  }
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+  .OS-p1-1 {
+    font-size: 125px;
+  }
+
+  .OS-b-p-1 p {
+    font-size: 35px;
+  }
+
+  iframe {
+    height: 500px;
+  }
+
+  .input-contact {
+    width: 81vw;
+    height: 200px;
+    font-size: 40px;
+    padding: 0px 0 150px 0px;
+  }
+
+  .label-flex p {
+    font-size: 45px;
+  }
+
+  .sabject {
+    width: 81vw;
+    height: 200px;
+    font-size: 40px;
+    padding: 0px 0 150px 0px;
+  }
+
+  textarea {
+    width: 81vw;
+    font-size: 40px;
+  }
+
+  .label-sabject-message p {
+    font-size: 45px;
+  }
+
+  .button--submit--contact {
+    font-size: 50px;
+  }
+
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+  .OS-p1-1 {
+    font-size: 125px;
+  }
+
+  .OS-b-p-1 p {
+    font-size: 35px;
+  }
+
+  iframe {
+    height: 500px;
+  }
+
+  .input-contact {
+    width: 81vw;
+    height: 200px;
+    font-size: 40px;
+    padding: 0px 0 150px 0px;
+  }
+
+  .label-flex p {
+    font-size: 45px;
+  }
+
+  .sabject {
+    width: 81vw;
+    height: 200px;
+    font-size: 40px;
+    padding: 0px 0 150px 0px;
+  }
+
+  textarea {
+    width: 81vw;
+    font-size: 40px;
+  }
+
+  .label-sabject-message p {
+    font-size: 45px;
+  }
+
+  .button--submit--contact {
+    font-size: 50px;
+  }
+
+  .button {
+    padding: 60px;
+  }
+}

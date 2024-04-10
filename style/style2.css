@@ -1,0 +1,446 @@
+.section-sladier {
+      background-color: #efefef;
+      padding: 25px 0;
+}
+
+.section-sladier-all {
+      display: flex;
+      align-items: center;
+}
+
+.hero-img img {
+      width: 500px;
+}
+
+.abb-text-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 150px;
+}
+
+.i-1 {
+      position: absolute;
+      left: 1px;
+}
+
+.i {
+      position: absolute;
+      right: 1px;
+}
+
+#title-hero {
+      font-size: 56px;
+      color: #5a5a5a;
+      font-weight: 2;
+}
+
+#title-Aliguid {
+      font-size: 30px;
+      color: #1a1a1a;
+      font-weight: 200;
+}
+
+.text-hero-p p {
+      padding-top: 10px;
+      font-size: 18px;
+      font-weight: 4;
+      color: #383838;
+}
+
+.icon-minus {
+      display: flex;
+      justify-content: center;
+}
+
+.icon-minus i {
+      margin: 0 5px;
+}
+
+.section-shop-all {
+      padding: 50px 0;
+}
+
+.text-all {
+      display: flex;
+      justify-content: center;
+}
+
+#title-section {
+      display: flex;
+      justify-content: center;
+      font-size: 48px;
+      font-family: "Zen Kaku Gothic Antique";
+      font-weight: 4;
+      color: #5a5a5a;
+}
+
+.text-p {
+      display: flex;
+      justify-content: center;
+
+}
+
+.text-p p {
+      width: 62%;
+      font-size: 18px;
+      font-family: fantasy;
+      color: #5a5a5a;
+      text-align: center;
+}
+
+.cards-shop {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 82px 100px;
+      flex-wrap: wrap;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: max-content;
+      height: max-content;
+}
+
+.cards-shop div {
+      margin: 0 31px;
+}
+
+.cards-shop div img {
+      width: 285px;
+      border-radius: 100%;
+      border: 0.5px solid #5a5a5a42;
+      transition: filter 0.3s ease-out;
+}
+
+.cards-shop div img:hover {
+      filter: brightness(80%) contrast(80%);
+}
+
+.card-1>p,
+.card-2>p,
+.card-3>p {
+      font-size: 25px;
+      font-family: serif;
+      font-weight: 600;
+      padding: 18px 0;
+}
+
+
+.button-shop {
+      all: unset;
+      display: flex;
+      align-items: center;
+      position: relative;
+      padding: 0.2em 0.5em;
+      border: #59ab6e solid 0.15em;
+      border-radius: 0.25em;
+      color: #59ab6e;
+      font-size: 1.2em;
+      font-family: sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+      overflow: hidden;
+      transition: border 300ms, color 300ms;
+      user-select: none;
+}
+
+.button-shop p {
+      z-index: 1;
+}
+
+.button-shop:hover {
+      color: #212121;
+}
+
+.button-shop:active {
+      border-color: #59ab6e;
+}
+
+.button-shop::after,
+.button-shop::before {
+      content: "";
+      position: absolute;
+      width: 162px;
+      aspect-ratio: 1;
+      background: #59ab6e;
+      opacity: 50%;
+      border-radius: 50%;
+      transition: transform 500ms;
+}
+
+.button-shop::before {
+      left: 0;
+      transform: translateX(-8em);
+}
+
+.button-shop::after {
+      right: 0;
+      transform: translateX(8em);
+}
+
+.button-shop:hover:before {
+      transform: translateX(-1em);
+}
+
+.button-shop:hover:after {
+      transform: translateX(1em);
+}
+
+.button-shop:active:before,
+.button-shop:active:after {
+      background: #59ab6e;
+}
+
+.section-prices {
+      background-color: #e9eef5;
+      padding: 75px 0;
+}
+
+.all-cards {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 25px 0px;
+}
+
+.all-cards-card-all {
+      background-color: white;
+      width: 350px;
+      margin: 0 10px;
+      border: 0.1px solid rgba(128, 128, 128, 0.344);
+      border-radius: 11px;
+}
+
+.all-cards-card-all img {
+      width: 348px;
+      height: max-content;
+      border-radius: 10px;
+}
+
+.col-1 div label lord-icon {
+      width: 35px;
+      height: 35px;
+}
+
+.col-1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+}
+
+.col-1 p {
+      color: rgba(128, 128, 128, 0.653);
+      font-size: 20px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text-card-1 {
+      padding: 0 10px;
+}
+
+.title-card {
+      font-size: 30px;
+}
+
+.text-card {
+      font-size: 20px;
+      font-family: "Zen Kaku Gothic Antique";
+      font-weight: 400;
+      color: #5a5a5a;
+}
+
+#Reviews {
+      padding: 15px 0;
+      font-size: 20px;
+      font-family: "Zen Kaku Gothic Antique";
+      font-weight: 4;
+      color: rgba(128, 128, 128, 0.653);
+}
+
+/*media*/
+@media (min-width:992px) and (max-width:1218px) {
+      .abb-text-img{
+            padding: 0 65px;
+      }
+
+      .hero-img img {
+            width: 450px;
+      }
+
+      #title-hero {
+            font-size: 45px;
+            text-align: center;
+      }
+
+      #title-Aliguid {
+            font-size: 25px;
+            text-align: center;
+      }
+
+      .text-hero-p p {
+            text-align: center;
+      }
+
+      .cards-shop{
+            padding: 80px 65px;
+      }
+
+      .cards-shop div img {
+            width: 200px;
+      }
+
+      .card-1>p,
+      .card-2>p,
+      .card-3>p {
+            font-size: 20px;
+      }
+
+      .button-shop {
+            font-size: 1em;
+      }
+
+      .button-shop::after,
+      .button-shop::before {
+            width: 135px;
+      }
+
+      .all-cards{
+            padding: 25px 65px;
+      }
+
+      .all-cards-card-all {
+            width: 260px;
+      }
+
+      .all-cards-card-all img{
+            width: 259px;
+      }
+
+      .col-1 div label lord-icon {
+            width: 25px;
+            height: 25px;
+      }
+
+      .col-1 p{
+            font-size: 18px;
+      }
+
+      .title-card{
+       font-size: 22px;     
+      }
+      .text-card {
+            font-size: 16px;
+      }
+      #Reviews{
+            font-size:16px;
+      }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+      .abb-text-img{
+            flex-wrap: wrap-reverse;
+            padding: 0 40px;
+      }
+
+      .hero-img img {
+            width: 600px;
+      }
+
+      #title-hero {
+            font-size: 75px;
+            text-align: center;
+      }
+
+      #title-Aliguid {
+            font-size: 45px;
+            text-align: center;
+      }
+
+      .text-hero-p p{
+            font-size: 35px;
+      }
+
+      .text-p p{
+            font-size: 3px;
+            width: 85%;
+      }
+
+      #title-section{
+            font-size: 70px;
+      }
+      .text-hero-p p {
+            text-align: center;
+      }
+
+      .cards-shop{
+            padding: 80px 40px;
+      }
+
+      .cards-shop div img {
+            width: 600px;
+      }
+
+      .card-1>p,
+      .card-2>p,
+      .card-3>p {
+            font-size: 100px;
+      }
+
+      .cards-shop div{
+            margin: 30px 100px;
+      }
+
+      .button-shop {
+            font-size: 5em;
+      }
+
+      .button-shop::after,
+      .button-shop::before {
+            width: 685px;
+      }
+
+      .all-cards{
+            padding: 25px 50px;
+      }
+
+      .all-cards-card-all {
+            width: 650px;
+            margin: 25px 0;
+      }
+
+      .all-cards-card-all img{
+            width: 649px;
+      }
+
+      .col-1 div label lord-icon {
+            width: 65px;
+            height: 65px;
+      }
+
+      .col-1 p{
+            font-size: 50px;
+      }
+
+      .title-card{
+       font-size: 55px;     
+      }
+      .text-card {
+            font-size: 35px;
+      }
+      #Reviews{
+            font-size:35px;
+      }
+}
+
+@media (min-width:576px) and (max-width:768px) {}
+
+@media (min-width:360px) and (max-width:576) {}
+
+/*media*/
