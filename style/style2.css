@@ -368,7 +368,7 @@
       }
 
       .text-p p{
-            font-size: 3px;
+            font-size: 30px;
             width: 85%;
       }
 
@@ -390,7 +390,7 @@
       .card-1>p,
       .card-2>p,
       .card-3>p {
-            font-size: 100px;
+            font-size: 75px;
       }
 
       .cards-shop div{
@@ -398,12 +398,12 @@
       }
 
       .button-shop {
-            font-size: 5em;
+            font-size: 3.5em;
       }
 
       .button-shop::after,
       .button-shop::before {
-            width: 685px;
+            width: 480px;
       }
 
       .all-cards{
@@ -411,12 +411,12 @@
       }
 
       .all-cards-card-all {
-            width: 650px;
+            width: 725px;
             margin: 25px 0;
       }
 
       .all-cards-card-all img{
-            width: 649px;
+            width: 723px;
       }
 
       .col-1 div label lord-icon {
@@ -429,13 +429,13 @@
       }
 
       .title-card{
-       font-size: 55px;     
+       font-size: 66px;     
       }
       .text-card {
-            font-size: 35px;
+            font-size: 45px;
       }
       #Reviews{
-            font-size:35px;
+            font-size:45px;
       }
 }
 
