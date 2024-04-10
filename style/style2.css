@@ -264,6 +264,10 @@
       color: rgba(128, 128, 128, 0.653);
 }
 
+.left, .right{
+      cursor: pointer;
+}
+
 /*media*/
 @media (min-width:992px) and (max-width:1218px) {
       .abb-text-img{
@@ -439,8 +443,160 @@
       }
 }
 
-@media (min-width:576px) and (max-width:768px) {}
+@media (min-width:576px) and (max-width:768px) {
+      .abb-text-img{
+            flex-wrap: wrap-reverse;
+            padding: 0px 10px;
+      }
+      .hero-img img {
+            width: 450px;
+      }
+      #title-hero {
+            font-size: 50px;
+            text-align: center;
+      }
+      #title-Aliguid {
+            font-size: 30px;
+            text-align: center;
+      }
+      .text-hero-p p{
+            font-size: 20px;
+      }
+      .text-p p{
+            font-size: 20px;
+            width: 80%;
+      }
+      #title-section{
+            font-size: 50px;
+      }
+      .text-hero-p p {
+            text-align: center;
+      }
+      .cards-shop{
+            padding: 80px 10px;
+      }
+      .cards-shop div img {
+            width: 450px;
+      }
+      .card-1>p,
+      .card-2>p,
+      .card-3>p {
+            font-size: 50px;
+      }
+      .cards-shop div{
+            margin: 30px 10px;
+      }
+      .button-shop {
+            font-size: 2.5em;
+      }
+      .button-shop::after,
+      .button-shop::before {
+            width: 342px;
+      }
+      .all-cards{
+            padding: 25px 10px;
+      }
+      .all-cards-card-all {
+            width: 540px;
+            margin: 25px 0;
+      }
+      .all-cards-card-all img{
+            width: 538px;
+      }
+      .col-1 div label lord-icon {
+            width: 55px;
+            height: 55px;
+      }
+      .col-1 p{
+            font-size: 50px;
+      }
+      .title-card{
+       font-size: 45px;     
+      }
+      .text-card {
+            font-size: 25px;
+      }
+      #Reviews{
+            font-size:25px;
+      }
+}
 
-@media (min-width:360px) and (max-width:576) {}
+@media (min-width:360px) and (max-width:576px) {
+      .abb-text-img{
+            flex-wrap: wrap-reverse;
+            padding: 0px 5px;
+      }
+      .hero-img img {
+            width: 325px;
+      }
+      #title-hero {
+            font-size: 40px;
+            text-align: center;
+      }
+      #title-Aliguid {
+            font-size: 22px;
+            text-align: center;
+      }
+      .text-hero-p p{
+            font-size: 16px;
+      }
+      .text-p p{
+            font-size: 16px;
+            width: 90%;
+      }
+      #title-section{
+            font-size: 30px;
+      }
+      .text-hero-p p {
+            text-align: center;
+      }
+      .cards-shop{
+            padding: 80px 5px;
+      }
+      .cards-shop div img {
+            width: 325px;
+      }
+      .card-1>p,
+      .card-2>p,
+      .card-3>p {
+            font-size: 35px;
+      }
+      .cards-shop div{
+            margin: 30px 10px;
+      }
+      .button-shop {
+            font-size: 2em;
+      }
+      .button-shop::after,
+      .button-shop::before {
+            width: 272px;
+      }
+      .all-cards{
+            padding: 25px 5px;
+      }
+      .all-cards-card-all {
+            width: 325px;
+            margin: 25px 0;
+      }
+      .all-cards-card-all img{
+            width: 323px;
+      }
+      .col-1 div label lord-icon {
+            width: 30px;
+            height: 30px;
+      }
+      .col-1 p{
+            font-size: 25px;
+      }
+      .title-card{
+       font-size: 28px;     
+      }
+      .text-card {
+            font-size: 18px;
+      }
+      #Reviews{
+            font-size:18px;
+      }
+}
 
 /*media*/

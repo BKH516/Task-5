@@ -630,6 +630,20 @@ ul {
     outline: none;
 }
 
+.footer-end{
+    background: #1d242d;
+}
+
+.footer-end-text{
+    color: white;
+    font-size: 20px;
+    padding: 25px 100px;
+}
+
+.footer-end-text p a{
+    color: white;
+}
+
 /* media*/
 
 @media (min-width:320px) and (max-width:576px) {
@@ -812,6 +826,10 @@ ul {
         height: 35px;
     }
 
+    .footer-end-text{
+        font-size: 20px;
+    }
+
 }
 
 @media (min-width:576px) and (max-width:768px) {
@@ -957,7 +975,7 @@ ul {
     }
 
     .button--submit {
-        width: 400px;
+        width: 200px;
         height: 100px;
         font-size: 25px;
     }
@@ -1145,6 +1163,11 @@ ul {
         width: 70px;
         height: 70px;
     }
+
+    .footer-end-text{
+        font-size: 35px;
+    }
+
 }
 
 @media (min-width:957px) and (max-width:991px) {
@@ -1227,6 +1250,10 @@ ul {
     .svgg-2 {
         width: 55px;
         height: 55px;
+    }
+
+    .footer-end-text{
+        font-size: 30px;
     }
 
 }
